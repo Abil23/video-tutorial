@@ -1,4 +1,33 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7h7Xh-c4KJ0?si=Nl0qzRF_yQy7qQSH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1UoskWBm1h0?si=SeRbKPQcCbpve7wt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Da183ku7OeA?si=dMD5hPodMNrbzkZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fNQGii5Etf0?si=CMUx98mJ-1pwsDFz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 15px; /* Memberikan sedikit jarak di pinggir kiri-kanan layar */
+            background-color: #f0f0f0; /* Warna background sedikit abu-abu biar videonya lebih menonjol */
+        }
+        .video-container {
+            width: 100%;
+            aspect-ratio: 16/9; /* Menjaga bentuk video tetap 16:9 */
+            margin-bottom: 25px; /* INI KUNCI JARAKNYA: Jarak bawah antar video 25 pixel */
+            border: none;
+            border-radius: 8px; /* Opsional: Bikin ujung video agak melengkung dikit biar manis */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Opsional: Kasih efek bayangan sedikit */
+        }
+    </style>
+</head>
+<body>
+
+    <iframe class="video-container" src="https://www.youtube.com/embed/7h7Xh-c4KJ0?si=Nl0qzRF_yQy7qQSH" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe class="video-container" src="https://www.youtube.com/embed/1UoskWBm1h0?si=SeRbKPQcCbpve7wt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe class="video-container" src="https://www.youtube.com/embed/Da183ku7OeA?si=dMD5hPodMNrbzkZ-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe class="video-container" src="https://www.youtube.com/embed/fNQGii5Etf0?si=CMUx98mJ-1pwsDFz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
